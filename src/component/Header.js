@@ -31,7 +31,7 @@ const Header = () => {
             <li style={{ cursor: 'pointer' }}><a href="/privacy" onClick={closeMenu}>Privacy Policy</a></li>
           </ul>
         </nav>
-        <a href="#" className="download-btn">Download App</a>
+        <a href="google.com" className="download-btn">Download App</a>
         {menuOpen ? (
           <FaTimes className="hamburger-icon" onClick={toggleMenu} />
         ) : (
@@ -42,7 +42,7 @@ const Header = () => {
         <div className="promo-text">
           <h1>CIVIL ENGINEERING HANDWRITTEN NOTES – GATE</h1>
           <p>Authentic Handwritten Notes for Future GATE Engineers</p>
-          <a href="#" className="app-arriving"><Link to="body" spy={true} smooth={true} duration={500} onClick={closeMenu}>Get Started</Link></a>
+          <a href="google.com" className="app-arriving"><Link to="body" spy={true} smooth={true} duration={500} onClick={closeMenu}>Get Started</Link></a>
         </div>
         <div className="promo-image">
           <img src={headerImage} alt="Handwritten Notes" />
